@@ -1,0 +1,23 @@
+{
+    "name": "obsidian-task-bell",
+    "version": "0.0.1",
+    "description": "When you complete a task, hear a sound!",
+    "main": "main.js",
+    "scripts": {
+        "dev": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs --sourcemap=inline --watch --loader:.mp3=dataurl",
+        "build": "esbuild main.ts --bundle --external:obsidian --outdir=.  --target=es2016 --format=cjs --loader:.mp3=dataurl"
+    },
+    "keywords": [],
+    "author": "@matthewcm",
+    "devDependencies": {
+      "@types/node": "^16.11.6",
+      "@typescript-eslint/eslint-plugin": "5.29.0",
+      "@typescript-eslint/parser": "5.29.0",
+      "builtin-modules": "3.3.0",
+      "esbuild": "0.14.47",
+      "obsidian": "latest",
+      "tslib": "2.4.0",
+      "typescript": "4.7.4"
+    }
+
+}
