@@ -19,7 +19,7 @@ yarn dev
 
 ### Manually installing the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+- Copy over this directory `task-bell` to your vault `VaultFolder/.obsidian/plugins/
 
 ### API Documentation
 
