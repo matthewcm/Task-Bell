@@ -1,13 +1,18 @@
-# Task Completion 🎵
+# Task Bell 🎵
 
-> Obsidian plugin that plays a sound everytime you complete a task (check of a box). great for associative learning
+> Obsidian plugin that plays a sound everytime you complete a task (check of a box). 
+> Great for associative learning
 ### Custom sounds
+- Use your own mp3 files for task completion.
+
+### Powermode!
+- Toggle power mode on for some fun
 
 ### Develop locally
 
 ```bash
-git clone https://github.com/paulphys/task-completion
-cd task-completion
+git clone https://github.com/matthewcm/task-bell
+cd task-bell
 yarn
 yarn dev
 ```
